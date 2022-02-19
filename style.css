@@ -1,0 +1,53 @@
+/**{*/
+/*    font-family: 'Exo 2', sans-serif;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+.box {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(./images/fone.jpg);
+    height: 900px;
+}
+.left_side {
+    color: #ffffff;
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 196px;
+
+
+}
+
+.left_side_top, .left_side_tit, .left_side_text, .green_btn {
+
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.left_side_top {
+    padding-top: 289px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.left_side_tit {
+    font-size: 54px;
+    font-weight: bold;
+
+}
+
+.left_side_text {
+
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 24px;
+    max-width: 502px;
+}
+.green_btn {
+    height: 52px;
+    box-sizing: border-box;
+    border-radius: 61px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 28px;
+
+}
