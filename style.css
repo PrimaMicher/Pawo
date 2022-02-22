@@ -1,16 +1,18 @@
 
 .box {
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(./images/fone.jpg) center no-repeat;
+    background-size: 100% auto;
     height: 900px;
 }
 .child_box{
     display: flex;
     justify-content: space-between;
+    margin-left: 196px;
+    margin-right: 188px;
 }
 .left_side {
     color: #ffffff;
     flex-wrap: wrap;
-    margin-left: 196px;
     padding-top: 289px;
 }
 
@@ -54,24 +56,19 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-top: 289px;
-    margin-right:188px;
+
     margin-left: 40px;
 }
 
 @media screen and (max-width: 1200px) {
-    .left_side {
-        margin-left: 90px;
-    }
-    .right_side {
-        margin-right: 90px;
+
+    .child_box {
+        margin: 0 90px 0 90px;
     }
 }
 @media screen and (max-width: 900px) {
-    .left_side {
-        margin-left: 40px;
-    }
-    .right_side {
-        margin-right: 40px;
+    .child_box {
+        margin: 0 40px 0 40px;
     }
 }
 @media screen and (max-width: 520px) {
