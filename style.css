@@ -1,12 +1,7 @@
-/**{*/
-/*    font-family: 'Exo 2', sans-serif;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
-.box {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(./images/fone.jpg);
-    height: 900px;
 
+.box {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(./images/fone.jpg) center no-repeat;
+    height: 900px;
 }
 .child_box{
     display: flex;
@@ -14,31 +9,24 @@
 }
 .left_side {
     color: #ffffff;
-    /*display: block;*/
     flex-wrap: wrap;
     margin-left: 196px;
     padding-top: 289px;
-
-
 }
 
-
 .left_side_top {
-
     font-weight: bold;
     font-size: 20px;
-
+    margin: 0 0 13px 0;
 }
 
 .left_side_tit {
     font-size: 54px;
     font-weight: bold;
     line-height: 109.5%;
-
 }
 
 .left_side_text {
-
     font-weight: bold;
     font-size: 16px;
     margin-top: 24px;
@@ -59,8 +47,6 @@ button {
     margin-top: 28px;
     border: none;
     cursor: pointer;
-
-
 }
 .right_side{
     display: flex;
@@ -68,6 +54,29 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-top: 289px;
-    margin-right:188px ;
+    margin-right:188px;
+    margin-left: 40px;
+}
 
+@media screen and (max-width: 1200px) {
+    .left_side {
+        margin-left: 90px;
+    }
+    .right_side {
+        margin-right: 90px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .left_side {
+        margin-left: 40px;
+    }
+    .right_side {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .left_side_tit {
+        font-size: 40px;
+        line-height: 100%;
+    }
 }
